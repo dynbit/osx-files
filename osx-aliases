@@ -1,1 +1,29 @@
 alias sublime="open -a \"Sublime Text\""
+
+# Xcode aliases
+alias rm-pch="find ~/Library/Developer/Xcode/DerivedData -type f -name '*.pch' -exec rm -rf {} \;"
+
+# Git aliases
+alias gpull="git pull"
+alias pull="git pull"
+alias st="git status"
+alias gst="git status"
+alias reset="git reset"
+alias greset="git reset"
+alias gci="git commit"
+alias ci="git commit"
+alias push="git push"
+alias gpush="git push"
+alias checkout="git checkout"
+alias gco="git checkout"
+alias co="git checkout"
+alias gbranch="git branch"
+alias branch="git branch"
+alias gb-rm="git branch -d"
+alias b-rm="git branch -d"
+alias gb-frm="git branch -D"
+alias b-rm="git branch -D"
+
+
+# Rails alias
+alias be="bundle exec"
